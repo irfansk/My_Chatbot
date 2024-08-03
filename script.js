@@ -44,7 +44,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (input.includes('hello')) return 'Hi there! How can I help you today?';
     if (input.includes('bye')) return 'Goodbye! Have a great day!';
-    if (input.includes(('made' && 'you'))) return '(Mr. Irfan Sk) is my maker';
     if (input.includes('how are you')) return 'I am just a bot, but I am functioning as expected!';
     if (input.includes('what is your name')) return 'I am a chatbot created to assist you.';
     if (input.includes('help')) return 'Sure, I am here to help. What do you need assistance with?';
